@@ -6,7 +6,7 @@ package.name = skinlesionai
 package.domain = org.skinai
 
 source.dir = .
-source.include_exts = py,png,jpg,kv,atlas,json,pth
+source.include_exts = py,png,jpg,kv,atlas,json
 
 version = 1.0.0
 
@@ -14,7 +14,7 @@ version = 1.0.0
 requirements = python3,kivy==2.3.0,pillow,numpy,plyer
 
 # ── Android 权限
-android.permissions = CAMERA,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE,INTERNET
+android.permissions = CAMERA,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
 
 # ── Android 配置
 android.minapi = 21
