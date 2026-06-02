@@ -17,7 +17,7 @@ requirements = python3,kivy==2.3.0,pillow,numpy,plyer
 android.permissions = CAMERA,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
 
 # ── Android 配置
-android.minapi = 21
+android.minapi = 24
 android.ndk = 25b
 android.sdk = 33
 android.ndk_api = 21
