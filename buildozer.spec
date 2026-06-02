@@ -11,7 +11,7 @@ source.include_exts = py,png,jpg,kv,atlas,json
 version = 1.0.0
 
 # ── 依赖包
-requirements = python3,kivy==2.3.0,pillow,numpy,plyer
+requirements = python3,kivy==2.3.0,pillow,plyer
 
 # ── Android 权限
 android.permissions = CAMERA,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
