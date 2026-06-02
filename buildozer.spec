@@ -37,7 +37,7 @@ fullscreen = 0
 # ── iOS（不使用）
 [buildozer]
 log_level = 2
-warn_on_root = 1
+warn_on_root = 0
 
 # 构建目录
 build_dir = ./.buildozer
