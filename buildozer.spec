@@ -11,7 +11,7 @@ source.include_exts = py,png,jpg,kv,atlas,json,pth
 version = 1.0.0
 
 # ── 依赖包
-requirements = python3,kivy==2.3.0,pillow,numpy,torch==2.0.1,torchvision==0.15.2,plyer
+requirements = python3,kivy==2.3.0,pillow,numpy,plyer
 
 # ── Android 权限
 android.permissions = CAMERA,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE,INTERNET
@@ -22,7 +22,7 @@ android.ndk = 25b
 android.sdk = 33
 android.ndk_api = 21
 android.accept_sdk_license = True
-android.archs = arm64-v8a, armeabi-v7a
+android.archs = armeabi-v7a
 
 # ── 屏幕方向
 orientation = portrait
