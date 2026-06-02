@@ -29,12 +29,11 @@ jobs:
           sudo apt-get update -y
           sudo apt-get install -y \
             python3-pip build-essential git \
-            ffmpeg libsdl2-dev libsdl2-image-dev \
+            libsdl2-dev libsdl2-image-dev \
             libsdl2-mixer-dev libsdl2-ttf-dev \
             libportmidi-dev libswscale-dev \
-            libavformat-dev libavcodec-dev zlib1g-dev \
-            libgstreamer1.0-dev gstreamer1.0-plugins-base \
-            gstreamer1.0-plugins-good zip unzip \
+            libavformat-dev libavcodec-dev \
+            zlib1g-dev zip unzip \
             openjdk-17-jdk autoconf libtool pkg-config \
             libncurses5-dev libffi-dev libssl-dev \
             ccache libsqlite3-dev
@@ -49,7 +48,6 @@ jobs:
         run: |
           mkdir -p ~/.android
           touch ~/.android/repositories.cfg
-          echo "buildozer_version = 1.5.0" >> ~/.bashrc
 
       - name: 构建APK
         run: |
