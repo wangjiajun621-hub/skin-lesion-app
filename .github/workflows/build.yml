@@ -22,7 +22,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: ~/.buildozer
-          key: buildozer-${{ hashFiles('buildozer.spec') }}-v2
+          key: buildozer-${{ hashFiles('buildozer.spec') }}-v3
 
       - name: 安装系统依赖
         run: |
